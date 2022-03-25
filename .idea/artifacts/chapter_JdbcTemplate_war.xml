@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="chapter_JdbcTemplate:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>chapter_JdbcTemplate</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ch18-spring-web-1.0.0.war">
+      <element id="artifact" artifact-name="chapter_JdbcTemplate:war exploded" />
+    </root>
+  </artifact>
+</component>
